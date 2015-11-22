@@ -15,10 +15,22 @@ header {
 }
 .profile {
 	background-color: #D68F2B;
-	margin: .5em;
+	margin: 2em;
+	border-radius: 10px;
 }
 
-.celeb-name {
-	background-color: #86592d;
+.celeb-info {
+	width: 45%;
+	padding: .5em;
+
 }
 
+.celeb-feature {
+	width: 45%;
+	float: right;
+	padding-bottom: 5em;
+}
+
+#bob{
+	clear: both;
+}
