@@ -1,3 +1,5 @@
+
+/*Completed CSS*/
 body {
 	background-image: url("../img/cat_tile_by_genicecream.png");
 	background-repeat: repeat;
@@ -11,3 +13,12 @@ header {
 	text-align: center;
 	text-shadow: 2px 2px black;
 }
+.profile {
+	background-color: #D68F2B;
+	margin: .5em;
+}
+
+.celeb-name {
+	background-color: #86592d;
+}
+
