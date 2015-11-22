@@ -1,4 +1,3 @@
-// Completed JS
 'use strict';
 $(document).ready(function(){
 
