@@ -11,7 +11,7 @@ $(Document).ready(function(){
 
   // Define our data object
   var context = {
-  	cats: [
+  	cat: [
     { name: 'Nyan Cat',
     description: 'Animated cat with PopTart body, flying through space with a trailing rainbow',
     profilePic: 'https://upload.wikimedia.org/wikipedia/en/e/ed/Nyan_cat_250px_frame.PNG',
