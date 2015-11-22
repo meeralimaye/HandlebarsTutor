@@ -2,3 +2,12 @@ body {
 	background-image: url("../img/cat_tile_by_genicecream.png");
 	background-repeat: repeat;
 }
+
+header {
+	background-color: #86592d;
+	color: #ffcccc;
+	width: 100%;
+	padding: .5em;
+	text-align: center;
+	text-shadow: 2px 2px black;
+}
