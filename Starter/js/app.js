@@ -4,13 +4,14 @@
 $(Document).ready(function(){
 
 // Grab the template script
-  var theTemplateScript = $("#address-template").html();
+  var theTemplateScript = $("#Celeb-profiles").html();
 
   // Compile the template
   var theTemplate = Handlebars.compile(theTemplateScript);
 
   // Define our data object
   var context = {
+    title: CelebriKitties,
     cats: [
     { name: 'Nyan Cat',
     description: 'Animated cat with PopTart body, flying through space with a trailing rainbow',

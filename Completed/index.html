@@ -16,29 +16,31 @@
  </head>
 
  <body>
-    <header>
-        <h1>CelbriKitties</h1>
-        <h3>Feline Superstars from the World Wide Web!</h3>
-    </header>
-    <script id="Celeb-Profiles" type="text/x-handlebars-template">
-        {{#each cat}}
-        	<div>
-        		<div>
-		        	<h2>{{cat.name}}</h2>
-		        	<p>{{cat.description}}</p>
-	        	</div>
+ 	<script id="Celeb-Profiles" type="text/x-handlebars-template">
+	    <header>
+	        <h1>{{title}}</h1>
+	        <h3>Feline Superstars from the World Wide Web!</h3>
+	    </header>
+	        {{#each cat}}
 	        	<div>
-		        	{{#if cat.video}}
-		        		<img src="{{cat.video}}">
-		        	{{else}}
-		        		{{#each image in cat.images}}
-		        			<img src"{{image}}">
-		        		{{/each}}
-		        	{{/if}}
+	        		<div>
+			        	<h2>{{cat.name}}</h2>
+			        	<p>{{cat.description}}</p>
+		        	</div>
+		        	<div>
+			        	{{#if cat.video}}
+			        		<img src="{{cat.video}}">
+			        	{{else}}
+			        		{{#each image in cat.images}}
+			        			<img src="{{image}}">
+			        		{{/each}}
+			        	{{/if}}
+			        </div>
 		        </div>
-	        </div>
-	    {{/each}}
+		    {{/each}}
     </script>
+
+    <div class="content-placeholder"></div>
  </body>
 
 <script src="js/handlebars-v4.0.5.js"></script>
