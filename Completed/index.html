@@ -16,7 +16,9 @@
  </head>
 
  <body>
- 	<script id="Celeb-Profiles" type="text/x-handlebars-template">
+ 	<div id="content"></div>
+
+ 	<script id="entry-template" type="text/x-handlebars-template">
 	    <header>
 	        <h1>{{title}}</h1>
 	        <h3>Feline Superstars from the World Wide Web!</h3>
@@ -24,14 +26,14 @@
 	        {{#each cat}}
 	        	<div>
 	        		<div>
-			        	<h2>{{cat.name}}</h2>
-			        	<p>{{cat.description}}</p>
+			        	<h2>{{name}}</h2>
+			        	<p>{{description}}</p>
 		        	</div>
 		        	<div>
-			        	{{#if cat.video}}
-			        		<img src="{{cat.video}}">
+			        	{{#if video}}
+			        		<img src="{{video}}">
 			        	{{else}}
-			        		{{#each image in cat.images}}
+			        		{{#each catImage}}
 			        			<img src="{{image}}">
 			        		{{/each}}
 			        	{{/if}}
@@ -39,12 +41,10 @@
 		        </div>
 		    {{/each}}
     </script>
-
-    <div class="content-placeholder"></div>
  </body>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="js/handlebars-v4.0.5.js"></script>
-<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-
+<script src="js/app.js"></script>
 
 </html>
