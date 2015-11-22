@@ -7,10 +7,15 @@
   var theTemplate = Handlebars.compile(theTemplateScript);
 
   // Define our data object
-  var context={
-    "city": "London",
-    "street": "Baker Street",
-    "number": "221B"
+  var context = {
+  	cats: [
+    { name: 'Nyan Cat',
+    description: 'Animated cat with PopTart body, flying through space with a trailing rainbow',
+    video: 'https://www.youtube.com/watch?v=QH2-TGUlwu4'},
+
+    { name: 
+
+    }
   };
 
   // Pass our data to the template
