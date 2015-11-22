@@ -12,7 +12,18 @@
 
     <link rel="stylesheet" href="css/main.css"/>
 
-    <title></title>
+    <title>CelebriKitties</title>
+
+    <!--Data will be inserted in its according place, replacing the brackets.-->
+	<script id="address-template" type="text/x-handlebars-template">
+  	<p>You can find me in {{city}}. My address is {{number}} {{street}}.</p>
+</script>
+
+<!--Your new content will be displayed in here-->
+<div class="content-placeholder"></div>
+
+
+
  </head>
 
  <body>
@@ -24,7 +35,7 @@
  </body>
 
 
- 
+
 <script src="lib/ui-bootstrap-tpls-0.14.3.min.js"></script>
 
 <script src="handlebars-v4.0.5.js"></script>
