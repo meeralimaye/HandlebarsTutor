@@ -21,8 +21,24 @@
         <h1>CelbriKitties</h1>
         <h3>Feline Superstars from the World Wide Web!</h3>
     </header>
-    <script id="address-template" type="text/x-handlebars-template">
-        <p>You can find me in {{city}}. My address is {{number}} {{street}}.</p>
+    <script id="Celeb-Profiles" type="text/x-handlebars-template">
+        {{#each cat in cats}}
+        	<div>
+        		<div>
+		        	<h2>{{cat.name}}</h2>
+		        	<p>{{cat.description}}</p>
+	        	</div>
+	        	<div>
+		        	{{#if cat.video}}
+		        		<img src="{{cat.video}}">
+		        	{{else}}
+		        		{{#each image in cat.images}}
+		        			<img src"{{image}}">
+		        		{{/each}}
+		        	{{/if}}
+		        </div>
+	        </div>
+	    {{/each}}
     </script>
  </body>
 
