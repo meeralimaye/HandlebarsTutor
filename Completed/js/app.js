@@ -1,5 +1,8 @@
 // Completed JS
 'use strict';
+$(Document).ready(function(){
+
+
 // Grab the template script
   var theTemplateScript = $("#address-template").html();
 
@@ -52,5 +55,4 @@
 
   // Add the compiled html to the page
   $('.content-placeholder').html(theCompiledHtml);
-
 });

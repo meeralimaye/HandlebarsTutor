@@ -1,5 +1,5 @@
 'use strict';
-
+$(Document).ready(function(){
 // Grab the template script
   var theTemplateScript = $("#address-template").html();
 
