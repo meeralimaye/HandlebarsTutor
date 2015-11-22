@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta author="Kinsfather/Nanakul">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- page information -->
+    <meta name="CelebriKitties" content="cat pages">
+
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <title>CelebriKitties</title>
+
+ </head>
+
+ <body>
+    <div id="content"></div>
+
+    <script id="entry-template" type="text/x-handlebars-template">
+        <header>
+            <h1>{{title}}</h1>
+            <h3>Feline Superstars from the World Wide Web!</h3>
+        </header>
+            {{#each cat}}
+                <div class="profile">
+                    <div>
+                        <h2>{{name}}</h2>
+                        <p>{{description}}</p>
+                    </div>
+                    <div>
+                        {{#if video}}
+                            <img src="{{video}}">
+                        {{else}}
+                            {{#each catImage}}
+                                <img src="{{image}}">
+                            {{/each}}
+                        {{/if}}
+                    </div>
+                </div>
+            {{/each}}
+    </script>
+ </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="js/handlebars-v4.0.5.js"></script>
+<script src="js/app.js"></script>
+
+</html>
