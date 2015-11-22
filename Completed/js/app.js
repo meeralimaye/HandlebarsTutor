@@ -48,5 +48,4 @@ $(document).ready(function(){
 	var html    = template(context);	
 	
 	$(html).appendTo('#content');
-
 });
