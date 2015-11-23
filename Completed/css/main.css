@@ -24,7 +24,7 @@ header {
 .celeb-info {
 	width: 45%;
 	padding: .5em;
-
+	display: inline-block;
 
 }
 
@@ -32,7 +32,27 @@ header {
 	width: 45%;
 	float: right;
 	padding-bottom: 5em;
+	padding-top: 5em;
 	clear: right;
+	display: inline-block;
+}
+
+.celeb-info h2{
+	display:inline-block;
+	color: #ffcccc;
+	text-shadow: 2px 2px black;
+}
+
+.celeb-info p{
+	display: wrap;
+	
+}
+
+.celeb-info img{
+	width: 45%;
+	float: right;
+	padding-top: 2em;
+	padding-left: .3em;
 }
 
 #bob{
@@ -44,3 +64,20 @@ img {
 	width: 80%;
 	float: up;
 }
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
