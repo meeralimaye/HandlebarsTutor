@@ -32,7 +32,7 @@ $(document).ready(function(){
             "name": "Lil Bub",
                 "description": "BUB was born with a multitude of genetic anomalies which all add up to one of nature's happiest accidents. She is a 'perma-kitten', which means she will stay kitten sized and maintain kitten-like features her entire life. She also has an extreme case of dwarfism, which means her limbs are disproportionately small relative to the rest of her body and she has some difficulty moving around.",
               "profilePic": "http://cdn.thedailybeast.com/content/dailybeast/articles/2013/04/19/lil-bub-the-world-s-cutest-cat-stars-in-documentary-lil-bub-friendz-at-tribeca/jcr:content/image.img.2000.jpg/1400303393447.cached.jpg",
-            "catImage": "http://www.geek.com/wp-content/uploads/2015/10/LilBub.jpg"
+            "catImage": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Lil_Bub_2013_(crop_for_thumb).jpg"
           }]
         };
 
