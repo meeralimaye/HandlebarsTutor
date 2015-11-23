@@ -25,18 +25,22 @@ header {
 	width: 45%;
 	padding: .5em;
 
+
 }
 
 .celeb-feature {
 	width: 45%;
 	float: right;
 	padding-bottom: 5em;
+	clear: right;
 }
 
 #bob{
 	clear: both;
 }
 
-.catImage{
-	position: center;
+img {
+	height: 50%;
+	width: 80%;
+	float: up;
 }
