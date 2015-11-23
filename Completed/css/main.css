@@ -17,6 +17,8 @@ header {
 	background-color: #D68F2B;
 	margin: 2em;
 	border-radius: 10px;
+	opacity: 0.95;
+
 }
 
 .celeb-info {
@@ -33,4 +35,8 @@ header {
 
 #bob{
 	clear: both;
+}
+
+.catImage{
+	position: center;
 }
