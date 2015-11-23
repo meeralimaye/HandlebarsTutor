@@ -3,6 +3,7 @@
 
 $(document).ready(function(){
 
+
     {
             "name": "Nyan Cat",
                 "description": "Animated cat with PopTart body, flying through space with a trailing rainbow",
@@ -32,7 +33,6 @@ $(document).ready(function(){
             "catImage": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Lil_Bub_2013_(crop_for_thumb).jpg"
           }]
         };
-
 
 
 });
